@@ -1,4 +1,4 @@
-package study0;
+package study;
 
 /**
  *
