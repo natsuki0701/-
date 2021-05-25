@@ -1,0 +1,65 @@
+.clearfix::after { 
+    content: ''; 
+    display: block; 
+    clear: both;
+}
+.wrapper {
+    width: 400px; 
+    margin: 0 auto; 
+/* wrapperクラスを中央寄せ */
+}
+
+/** header **/
+.header { 
+    width: 100%; 
+    height: 100px; 
+    background-color: #141f40;
+}
+/** end of header **//** contents **/
+.contents{ 
+    height: 250px;
+    background-color: #8c2727;
+}
+/** left **/
+.left { 
+    float: left;
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+}
+
+/** left **/
+.left-lower{ 
+    float: left;
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+}
+
+/** end of left-center **//** right **/
+.right { 
+    float: right; 
+    width: 100px; 
+    height: 150px;
+    background-color: #ff9e6b;
+}
+.right-inner {
+    float: right; 
+    width: 150px;
+    height: 50px;
+    margin-top: 0px 150px 100px 250px; 
+    background-color: #dbd400;
+}
+/** footer **/
+.footer {
+    width: 100%; 
+    height: 100px;
+    background-color: #d98d30;
+}
+/** end of footer **/
+
+/* reset.css*/
+* {
+    margin: 0;
+    padding: 0;
+}
