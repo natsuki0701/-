@@ -1,4 +1,7 @@
-console.log(10 === 10);
+let a = 8;
+if( a !== 10 ){
+}
+console.log(a);
 
 let b = 12;
 if( b >= 10 && b <= 20 ){
